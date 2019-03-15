@@ -25,7 +25,6 @@ if (result.status_code == 200):
         for res in VIDEO_RES:
             dash = href + '/' + res
             dashresult = requests.get(dash, allow_redirects=False, headers = {'User-agent': "badideabot 0.1"})
-            print(dashresult)
             if dashresult.status_code == 200:
                 print(dash)
                 break
