@@ -8,6 +8,9 @@ VIDEO_RES = [
     'DASH_2_4_M',
     'DASH_1_2_M',
     'DASH_600_K',
+    'DASH_1080',
+    'DASH_720',
+    'DASH_480'
     'DASH_240'
     ]
 
